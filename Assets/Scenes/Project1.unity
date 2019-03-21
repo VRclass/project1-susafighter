@@ -123,6 +123,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SphereClimb (46)
       objectReference: {fileID: 0}
+    - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4034855299993532, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.176
@@ -185,6 +189,10 @@ PrefabInstance:
     - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_Name
       value: SphereClimb (103)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4034855299993532, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_LocalPosition.x
@@ -249,6 +257,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SphereClimb (138)
       objectReference: {fileID: 0}
+    - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4034855299993532, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.063
@@ -301,6 +313,58 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 58151146}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &62369279
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 62369281}
+  - component: {fileID: 62369280}
+  m_Layer: 0
+  m_Name: PositionRewind
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!114 &62369280
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 62369279}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04101513ece37524797428a93f9acdc3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  collisionDetector: 0
+  ignoreTriggerColliders: 0
+  rewindDelay: 0.5
+  pushbackDistance: 0.5
+  crouchThreshold: 0.5
+  crouchRewindThreshold: 0.1
+  targetListPolicy: {fileID: 0}
+  bodyPhysics: {fileID: 1537443951}
+  headsetCollision: {fileID: 1514991836}
+--- !u!4 &62369281
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 62369279}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1912117300}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &65522841
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -311,6 +375,10 @@ PrefabInstance:
     - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_Name
       value: SphereClimb (140)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4034855299993532, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_LocalPosition.x
@@ -375,6 +443,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SphereClimb (167)
       objectReference: {fileID: 0}
+    - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4034855299993532, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.076
@@ -437,6 +509,10 @@ PrefabInstance:
     - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_Name
       value: SphereClimb (151)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4034855299993532, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_LocalPosition.x
@@ -607,6 +683,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SphereClimb (67)
       objectReference: {fileID: 0}
+    - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4034855299993532, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.155
@@ -774,6 +854,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SphereClimb (111)
       objectReference: {fileID: 0}
+    - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4034855299993532, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.419
@@ -876,7 +960,7 @@ PrefabInstance:
     - target: {fileID: 4363792124313647226, guid: 5bc383449a755104f8e136bc52275e17,
         type: 3}
       propertyPath: m_RootOrder
-      value: 16
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 4363792124313647226, guid: 5bc383449a755104f8e136bc52275e17,
         type: 3}
@@ -1152,6 +1236,16 @@ MonoBehaviour:
   m_Script: {fileID: 0}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &106048153
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1359,6 +1453,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SphereClimb (42)
       objectReference: {fileID: 0}
+    - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4034855299993532, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.091
@@ -1460,6 +1558,16 @@ MonoBehaviour:
   m_Script: {fileID: 0}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &116194141
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1483,6 +1591,10 @@ PrefabInstance:
     - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_Name
       value: SphereClimb (159)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4034855299993532, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1586,7 +1698,7 @@ PrefabInstance:
     - target: {fileID: 7051232546399676722, guid: 169308e2f93272b49a59dd291344f24d,
         type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 7051232546399676722, guid: 169308e2f93272b49a59dd291344f24d,
         type: 3}
@@ -1786,6 +1898,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SphereClimb (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4034855299993532, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.247
@@ -1916,6 +2032,16 @@ MonoBehaviour:
   m_Script: {fileID: 0}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &149286013
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1926,6 +2052,10 @@ PrefabInstance:
     - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_Name
       value: SphereClimb (55)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4034855299993532, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1990,6 +2120,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SphereClimb (105)
       objectReference: {fileID: 0}
+    - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4034855299993532, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.1648
@@ -2052,6 +2186,10 @@ PrefabInstance:
     - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_Name
       value: SphereClimb (110)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4034855299993532, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2138,6 +2276,61 @@ Transform:
   m_Father: {fileID: 1717613967}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: -90, y: -90, z: 0}
+--- !u!1 &163766600
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 163766601}
+  - component: {fileID: 163766602}
+  m_Layer: 0
+  m_Name: MoveInPlace
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &163766601
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 163766600}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 491791731}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &163766602
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 163766600}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 362751dab3d80d94197e74b015122865, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  leftController: 1
+  rightController: 1
+  engageButton: 10
+  controlOptions: 1
+  directionMethod: 1
+  speedScale: 1
+  maxSpeed: 4
+  deceleration: 0.1
+  fallingDeceleration: 0.01
+  smartDecoupleThreshold: 30
+  sensitivity: 0.02
+  bodyPhysics: {fileID: 1537443951}
 --- !u!1001 &169935706
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2148,6 +2341,10 @@ PrefabInstance:
     - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_Name
       value: SphereClimb (132)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4034855299993532, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2401,6 +2598,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SphereClimb (119)
       objectReference: {fileID: 0}
+    - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4034855299993532, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.3969998
@@ -2503,7 +2704,7 @@ PrefabInstance:
     - target: {fileID: 1966779644259920233, guid: 924b0ecc34978a4429c5814c54ff0db2,
         type: 3}
       propertyPath: m_RootOrder
-      value: 10
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 1966779644259920233, guid: 924b0ecc34978a4429c5814c54ff0db2,
         type: 3}
@@ -2532,6 +2733,10 @@ PrefabInstance:
     - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_Name
       value: SphereClimb (38)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4034855299993532, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2596,6 +2801,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SphereClimb (120)
       objectReference: {fileID: 0}
+    - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4034855299993532, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.406
@@ -2659,6 +2868,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SphereClimb (108)
       objectReference: {fileID: 0}
+    - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4034855299993532, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.42
@@ -2721,6 +2934,10 @@ PrefabInstance:
     - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_Name
       value: SphereClimb (153)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4034855299993532, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2948,6 +3165,94 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 666f106f8ad384d499459fa8df2e9301, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &262249346
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 262249347}
+  - component: {fileID: 262249350}
+  - component: {fileID: 262249349}
+  - component: {fileID: 262249348}
+  m_Layer: 0
+  m_Name: Left Controller [X Axis Rotate] - Right Controller [X Axis Slide - Y Axis
+    Slide]
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &262249347
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 262249346}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1371940748}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &262249348
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 262249346}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e1227828337a634aa0ff434d6bbd019, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectControlScript: {fileID: 1363737550}
+  listenOnAxisChange: 1
+  maximumSpeed: 3
+  deceleration: 0.1
+  fallingDeceleration: 0.01
+  speedMultiplier: 1.5
+  bodyPhysics: {fileID: 1537443951}
+--- !u!114 &262249349
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 262249346}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e1227828337a634aa0ff434d6bbd019, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectControlScript: {fileID: 1363737550}
+  listenOnAxisChange: 0
+  maximumSpeed: 3
+  deceleration: 0.1
+  fallingDeceleration: 0.01
+  speedMultiplier: 1.5
+  bodyPhysics: {fileID: 1537443951}
+--- !u!114 &262249350
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 262249346}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8cf039de547880c4d9e49bf7eed59df5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectControlScript: {fileID: 1061365573}
+  listenOnAxisChange: 0
+  maximumRotationSpeed: 10
+  rotationMultiplier: 1.5
 --- !u!1 &262268756
 GameObject:
   m_ObjectHideFlags: 0
@@ -2978,6 +3283,57 @@ Transform:
   m_Father: {fileID: 801484013}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: -90}
+--- !u!1 &265305169
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 265305170}
+  - component: {fileID: 265305171}
+  m_Layer: 0
+  m_Name: SlingshotJump
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &265305170
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 265305169}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 491791731}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &265305171
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 265305169}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d8e585609266b24a8e1d959f33df2f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  releaseWindowTime: 0.5
+  velocityMultiplier: 5
+  velocityMax: 8
+  activationButton: 7
+  cancelButton: 3
+  bodyPhysics: {fileID: 1537443951}
+  playerClimb: {fileID: 2011542566}
+  teleporter: {fileID: 1537443952}
 --- !u!1 &290984387
 GameObject:
   m_ObjectHideFlags: 0
@@ -3067,8 +3423,75 @@ Transform:
   m_LocalScale: {x: 1, y: 50, z: 733.8527}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 18
+  m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &292556959
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1691043651}
+    m_Modifications:
+    - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
+      propertyPath: m_Name
+      value: SphereClimb (186)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4034855299993532, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.578
+      objectReference: {fileID: 0}
+    - target: {fileID: 4034855299993532, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.377
+      objectReference: {fileID: 0}
+    - target: {fileID: 4034855299993532, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.752
+      objectReference: {fileID: 0}
+    - target: {fileID: 4034855299993532, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4034855299993532, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4034855299993532, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4034855299993532, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4034855299993532, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
+      propertyPath: m_RootOrder
+      value: 186
+      objectReference: {fileID: 0}
+    - target: {fileID: 4034855299993532, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.099999994
+      objectReference: {fileID: 0}
+    - target: {fileID: 4034855299993532, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.099999994
+      objectReference: {fileID: 0}
+    - target: {fileID: 4034855299993532, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.099999994
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
+--- !u!4 &292556960 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4034855299993532, guid: bd2cf02360a0f42418077b237a1fe053,
+    type: 3}
+  m_PrefabInstance: {fileID: 292556959}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &297500993
 GameObject:
   m_ObjectHideFlags: 0
@@ -3212,6 +3635,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SphereClimb (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4034855299993532, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.23
@@ -3274,6 +3701,10 @@ PrefabInstance:
     - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_Name
       value: SphereClimb (124)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4034855299993532, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3407,6 +3838,10 @@ PrefabInstance:
     - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_Name
       value: SphereClimb (97)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4034855299993532, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3576,6 +4011,82 @@ MonoBehaviour:
   m_Script: {fileID: 0}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &353512377
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 353512378}
+  - component: {fileID: 353512379}
+  m_Layer: 0
+  m_Name: DragWorld
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &353512378
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 353512377}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 491791731}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &353512379
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 353512377}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9cf269fbd7fc3948bd5942966eb1dd7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  movementActivationButton: 7
+  movementActivationRequirement: 5
+  movementTrackingController: 3
+  movementMultiplier: 3
+  movementPositionLock:
+    xState: 0
+    yState: 1
+    zState: 0
+  rotationActivationButton: 7
+  rotationActivationRequirement: 5
+  rotationTrackingController: 3
+  rotationMultiplier: 0.75
+  rotationActivationThreshold: 0.1
+  scaleActivationButton: 3
+  scaleActivationRequirement: 5
+  scaleTrackingController: 3
+  scaleMultiplier: 3
+  scaleActivationThreshold: 0.002
+  minimumScale: {x: 1, y: 1, z: 1}
+  maximumScale: {x: Infinity, y: Infinity, z: Infinity}
+  controllingTransform: {fileID: 0}
+  useOffsetTransform: 1
+  offsetTransform: {fileID: 0}
 --- !u!1001 &359127034
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3586,6 +4097,10 @@ PrefabInstance:
     - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_Name
       value: SphereClimb (82)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4034855299993532, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3650,6 +4165,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SphereClimb (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4034855299993532, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.101
@@ -3713,6 +4232,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SphereClimb (185)
       objectReference: {fileID: 0}
+    - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4034855299993532, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.062
@@ -3765,6 +4288,68 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 366139770}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &366617691
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 366617692}
+  - component: {fileID: 366617694}
+  - component: {fileID: 366617693}
+  m_Layer: 0
+  m_Name: HeadsetFade
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &366617692
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 366617691}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1912117300}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &366617693
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 366617691}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 21b4bc319f4966f4faedb4f429f7c9c9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timeTillFade: 0
+  blinkTransitionSpeed: 0.1
+  fadeColor: {r: 0, g: 0, b: 0, a: 1}
+  targetListPolicy: {fileID: 0}
+  headsetCollision: {fileID: 1514991836}
+  headsetFade: {fileID: 366617694}
+--- !u!114 &366617694
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 366617691}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 44596d094d0946345a7fc6688ba9c06c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &367659171
 GameObject:
   m_ObjectHideFlags: 0
@@ -3806,6 +4391,10 @@ PrefabInstance:
     - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_Name
       value: SphereClimb (168)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4034855299993532, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3929,6 +4518,59 @@ Transform:
   m_Father: {fileID: 2144143985}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &387496358
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 387496359}
+  - component: {fileID: 387496360}
+  m_Layer: 0
+  m_Name: ComfortTunneling
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &387496359
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 387496358}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1912117300}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &387496360
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 387496358}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 11ae14e46824f384b98d6ea1aae82798, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  minimumRotation: 0
+  maximumRotation: 45
+  minimumSpeed: 0
+  maximumSpeed: 1
+  effectColor: {r: 0, g: 0, b: 0, a: 1}
+  effectSkybox: {fileID: 0}
+  initialEffectSize: 0
+  maximumEffectSize: 0.65
+  featherSize: 0.1
+  smoothingTime: 0.15
 --- !u!1001 &388591108
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3939,6 +4581,10 @@ PrefabInstance:
     - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_Name
       value: SphereClimb (147)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4034855299993532, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4002,6 +4648,10 @@ PrefabInstance:
     - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_Name
       value: SphereClimb (102)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4034855299993532, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4144,6 +4794,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SphereClimb (90)
       objectReference: {fileID: 0}
+    - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4034855299993532, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.412
@@ -4206,6 +4860,10 @@ PrefabInstance:
     - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_Name
       value: SphereClimb (60)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4034855299993532, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4299,6 +4957,10 @@ PrefabInstance:
     - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_Name
       value: SphereClimb (66)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4034855299993532, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4637,6 +5299,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SphereClimb (44)
       objectReference: {fileID: 0}
+    - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4034855299993532, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.537
@@ -4699,6 +5365,10 @@ PrefabInstance:
     - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_Name
       value: SphereClimb (101)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4034855299993532, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4763,6 +5433,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SphereClimb (59)
       objectReference: {fileID: 0}
+    - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4034855299993532, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.255
@@ -4825,6 +5499,10 @@ PrefabInstance:
     - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_Name
       value: SphereClimb (29)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4034855299993532, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4952,6 +5630,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SphereClimb (121)
       objectReference: {fileID: 0}
+    - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4034855299993532, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.24
@@ -5015,6 +5697,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SphereClimb (57)
       objectReference: {fileID: 0}
+    - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4034855299993532, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.3
@@ -5067,6 +5753,42 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 483154328}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &491791730
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 491791731}
+  m_Layer: 0
+  m_Name: LocomotionTypes
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &491791731
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 491791730}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2011542567}
+  - {fileID: 265305170}
+  - {fileID: 163766601}
+  - {fileID: 353512378}
+  - {fileID: 1795365863}
+  - {fileID: 879114653}
+  m_Father: {fileID: 1912117300}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &495904221
 GameObject:
   m_ObjectHideFlags: 0
@@ -5218,7 +5940,7 @@ PrefabInstance:
     - target: {fileID: 1966779644259920233, guid: 924b0ecc34978a4429c5814c54ff0db2,
         type: 3}
       propertyPath: m_RootOrder
-      value: 12
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 1966779644259920233, guid: 924b0ecc34978a4429c5814c54ff0db2,
         type: 3}
@@ -5247,6 +5969,10 @@ PrefabInstance:
     - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_Name
       value: SphereClimb (28)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4034855299993532, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5341,17 +6067,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: SphereClimb (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4034855299993532, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.409
+      value: 1.399
       objectReference: {fileID: 0}
     - target: {fileID: 4034855299993532, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.639
+      value: 0.669
       objectReference: {fileID: 0}
     - target: {fileID: 4034855299993532, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.268
+      value: 0.222
       objectReference: {fileID: 0}
     - target: {fileID: 4034855299993532, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_LocalRotation.x
@@ -5403,6 +6133,10 @@ PrefabInstance:
     - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_Name
       value: SphereClimb (115)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4034855299993532, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5466,6 +6200,10 @@ PrefabInstance:
     - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_Name
       value: SphereClimb (87)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4034855299993532, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5553,8 +6291,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   autoManageScriptDefines: 1
   activeScriptingDefineSymbolsWithoutSDKClasses: []
-  scriptAliasLeftController: {fileID: 0}
-  scriptAliasRightController: {fileID: 0}
+  scriptAliasLeftController: {fileID: 1493467140}
+  scriptAliasRightController: {fileID: 1932944380}
   autoManageVRSettings: 1
   autoLoadSetup: 1
   setups:
@@ -5688,6 +6426,10 @@ PrefabInstance:
     - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_Name
       value: SphereClimb (63)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4034855299993532, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5941,6 +6683,120 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 563642751}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &573461773
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 573461774}
+  - component: {fileID: 573461778}
+  - component: {fileID: 573461777}
+  - component: {fileID: 573461776}
+  - component: {fileID: 573461775}
+  m_Layer: 0
+  m_Name: Either Controller - X Axis Warp - Y Axis Warp
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &573461774
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 573461773}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1371940748}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &573461775
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 573461773}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 79201badbabbe254a978b37a86ac828c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectControlScript: {fileID: 1363737550}
+  listenOnAxisChange: 1
+  warpDistance: 1
+  warpMultiplier: 2
+  warpDelay: 0.5
+  floorHeightTolerance: 1
+  blinkTransitionSpeed: 0.6
+  bodyPhysics: {fileID: 1537443951}
+--- !u!114 &573461776
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 573461773}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 79201badbabbe254a978b37a86ac828c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectControlScript: {fileID: 1363737550}
+  listenOnAxisChange: 0
+  warpDistance: 1
+  warpMultiplier: 2
+  warpDelay: 0.5
+  floorHeightTolerance: 1
+  blinkTransitionSpeed: 0.6
+  bodyPhysics: {fileID: 1537443951}
+--- !u!114 &573461777
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 573461773}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 79201badbabbe254a978b37a86ac828c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectControlScript: {fileID: 1061365573}
+  listenOnAxisChange: 1
+  warpDistance: 1
+  warpMultiplier: 2
+  warpDelay: 0.5
+  floorHeightTolerance: 1
+  blinkTransitionSpeed: 0.6
+  bodyPhysics: {fileID: 1537443951}
+--- !u!114 &573461778
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 573461773}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 79201badbabbe254a978b37a86ac828c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectControlScript: {fileID: 1061365573}
+  listenOnAxisChange: 0
+  warpDistance: 1
+  warpMultiplier: 2
+  warpDelay: 0.5
+  floorHeightTolerance: 1
+  blinkTransitionSpeed: 0.6
+  bodyPhysics: {fileID: 1537443951}
 --- !u!1001 &574493132
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5951,6 +6807,10 @@ PrefabInstance:
     - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_Name
       value: SphereClimb (157)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4034855299993532, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6014,6 +6874,10 @@ PrefabInstance:
     - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_Name
       value: SphereClimb (169)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4034855299993532, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6150,7 +7014,7 @@ Transform:
   - {fileID: 2129443563}
   - {fileID: 1547939738}
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &598501031
 PrefabInstance:
@@ -6162,6 +7026,10 @@ PrefabInstance:
     - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_Name
       value: SphereClimb (150)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4034855299993532, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6226,6 +7094,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SphereClimb (142)
       objectReference: {fileID: 0}
+    - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4034855299993532, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.995
@@ -6289,6 +7161,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SphereClimb (75)
       objectReference: {fileID: 0}
+    - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4034855299993532, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.429
@@ -6351,6 +7227,10 @@ PrefabInstance:
     - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_Name
       value: SphereClimb (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4034855299993532, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6498,6 +7378,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SphereClimb (181)
       objectReference: {fileID: 0}
+    - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4034855299993532, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.986
@@ -6560,6 +7444,10 @@ PrefabInstance:
     - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_Name
       value: SphereClimb (112)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4034855299993532, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6624,6 +7512,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SphereClimb (182)
       objectReference: {fileID: 0}
+    - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4034855299993532, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.927
@@ -6676,6 +7568,37 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 638974916}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &652783949
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 652783950}
+  m_Layer: 0
+  m_Name: PolicyLists
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &652783950
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 652783949}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1477690765}
+  m_Father: {fileID: 1912117300}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &652941704
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6686,6 +7609,10 @@ PrefabInstance:
     - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_Name
       value: SphereClimb (184)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4034855299993532, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6749,6 +7676,10 @@ PrefabInstance:
     - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_Name
       value: SphereClimb (33)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4034855299993532, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6849,6 +7780,10 @@ PrefabInstance:
     - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_Name
       value: SphereClimb (172)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4034855299993532, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7073,6 +8008,10 @@ PrefabInstance:
     - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_Name
       value: SphereClimb (129)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4034855299993532, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7344,6 +8283,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SphereClimb (116)
       objectReference: {fileID: 0}
+    - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4034855299993532, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.85
@@ -7550,6 +8493,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SphereClimb (39)
       objectReference: {fileID: 0}
+    - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4034855299993532, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.263
@@ -7613,6 +8560,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SphereClimb (128)
       objectReference: {fileID: 0}
+    - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4034855299993532, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.188
@@ -7675,6 +8626,10 @@ PrefabInstance:
     - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_Name
       value: SphereClimb (24)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4034855299993532, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7769,7 +8724,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: f83ae204500120148a98c0ef54de2641, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: f83ae204500120148a98c0ef54de2641, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -7807,6 +8762,10 @@ PrefabInstance:
     - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_Name
       value: SphereClimb (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4034855299993532, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7954,6 +8913,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SphereClimb (98)
       objectReference: {fileID: 0}
+    - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4034855299993532, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.225
@@ -8016,6 +8979,10 @@ PrefabInstance:
     - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_Name
       value: SphereClimb (161)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4034855299993532, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8080,6 +9047,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SphereClimb (62)
       objectReference: {fileID: 0}
+    - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4034855299993532, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.405
@@ -8142,6 +9113,10 @@ PrefabInstance:
     - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_Name
       value: SphereClimb (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4034855299993532, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8351,6 +9326,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SphereClimb (23)
       objectReference: {fileID: 0}
+    - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4034855299993532, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.613
@@ -8413,6 +9392,10 @@ PrefabInstance:
     - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_Name
       value: SphereClimb (65)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4034855299993532, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8477,6 +9460,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SphereClimb (117)
       objectReference: {fileID: 0}
+    - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4034855299993532, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.414
@@ -8539,6 +9526,10 @@ PrefabInstance:
     - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_Name
       value: SphereClimb (144)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4034855299993532, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8681,6 +9672,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SphereClimb (36)
       objectReference: {fileID: 0}
+    - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4034855299993532, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.339
@@ -8776,6 +9771,10 @@ PrefabInstance:
     - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_Name
       value: SphereClimb (118)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4034855299993532, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8945,6 +9944,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SphereClimb (21)
       objectReference: {fileID: 0}
+    - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4034855299993532, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.273
@@ -9007,6 +10010,10 @@ PrefabInstance:
     - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_Name
       value: SphereClimb (177)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4034855299993532, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9179,6 +10186,10 @@ PrefabInstance:
     - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_Name
       value: SphereClimb (80)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4034855299993532, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9455,6 +10466,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SphereClimb (30)
       objectReference: {fileID: 0}
+    - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4034855299993532, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.5
@@ -9517,6 +10532,10 @@ PrefabInstance:
     - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_Name
       value: SphereClimb (72)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4034855299993532, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9660,6 +10679,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SphereClimb (48)
       objectReference: {fileID: 0}
+    - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4034855299993532, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.501
@@ -9722,6 +10745,10 @@ PrefabInstance:
     - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_Name
       value: SphereClimb (109)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4034855299993532, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9855,6 +10882,16 @@ MonoBehaviour:
   m_Script: {fileID: 0}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!82 &875947025
 AudioSource:
   m_ObjectHideFlags: 0
@@ -9965,6 +11002,159 @@ MonoBehaviour:
   m_Script: {fileID: 0}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &879114652
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 879114653}
+  m_Layer: 0
+  m_Name: ObjectControl
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &879114653
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 879114652}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1061365574}
+  - {fileID: 1363737551}
+  - {fileID: 1371940748}
+  m_Father: {fileID: 491791731}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &886043688
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 886043689}
+  - component: {fileID: 886043693}
+  - component: {fileID: 886043692}
+  - component: {fileID: 886043691}
+  - component: {fileID: 886043690}
+  m_Layer: 0
+  m_Name: Either Controller - X Axis Snap Rotate - Y Axis Slide
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &886043689
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 886043688}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1371940748}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &886043690
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 886043688}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e1227828337a634aa0ff434d6bbd019, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectControlScript: {fileID: 1363737550}
+  listenOnAxisChange: 1
+  maximumSpeed: 3
+  deceleration: 0.1
+  fallingDeceleration: 0.01
+  speedMultiplier: 1.5
+  bodyPhysics: {fileID: 1537443951}
+--- !u!114 &886043691
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 886043688}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 11c28f695996f534b8a8e4935ae2a651, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectControlScript: {fileID: 1363737550}
+  listenOnAxisChange: 0
+  anglePerSnap: 30
+  angleMultiplier: 1.5
+  snapDelay: 0.5
+  blinkTransitionSpeed: 0.6
+  axisThreshold: 0
+--- !u!114 &886043692
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 886043688}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e1227828337a634aa0ff434d6bbd019, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectControlScript: {fileID: 1061365573}
+  listenOnAxisChange: 1
+  maximumSpeed: 3
+  deceleration: 0.1
+  fallingDeceleration: 0.01
+  speedMultiplier: 1.5
+  bodyPhysics: {fileID: 1537443951}
+--- !u!114 &886043693
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 886043688}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 11c28f695996f534b8a8e4935ae2a651, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectControlScript: {fileID: 1061365573}
+  listenOnAxisChange: 0
+  anglePerSnap: 30
+  angleMultiplier: 1.5
+  snapDelay: 0.5
+  blinkTransitionSpeed: 0.6
+  axisThreshold: 0
 --- !u!1 &900929072
 GameObject:
   m_ObjectHideFlags: 0
@@ -10065,7 +11255,7 @@ PrefabInstance:
     - target: {fileID: 4363792124313647226, guid: 5bc383449a755104f8e136bc52275e17,
         type: 3}
       propertyPath: m_RootOrder
-      value: 15
+      value: 17
       objectReference: {fileID: 0}
     - target: {fileID: 4363792124313647226, guid: 5bc383449a755104f8e136bc52275e17,
         type: 3}
@@ -10212,6 +11402,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1001 &915715512
@@ -10371,6 +11571,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SphereClimb (160)
       objectReference: {fileID: 0}
+    - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4034855299993532, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.132
@@ -10433,6 +11637,10 @@ PrefabInstance:
     - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_Name
       value: SphereClimb (70)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4034855299993532, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_LocalPosition.x
@@ -10593,7 +11801,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: f83ae204500120148a98c0ef54de2641, type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: f83ae204500120148a98c0ef54de2641, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -10631,6 +11839,10 @@ PrefabInstance:
     - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_Name
       value: SphereClimb (99)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4034855299993532, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_LocalPosition.x
@@ -10778,6 +11990,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SphereClimb (32)
       objectReference: {fileID: 0}
+    - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4034855299993532, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.397
@@ -10916,6 +12132,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SphereClimb (152)
       objectReference: {fileID: 0}
+    - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4034855299993532, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.129
@@ -10978,6 +12198,10 @@ PrefabInstance:
     - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_Name
       value: SphereClimb (141)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4034855299993532, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_LocalPosition.x
@@ -11302,6 +12526,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SphereClimb (58)
       objectReference: {fileID: 0}
+    - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4034855299993532, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.238
@@ -11573,6 +12801,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1691043651}
     m_Modifications:
+    - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4034855299993532, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.565
@@ -11623,6 +12855,10 @@ PrefabInstance:
     - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_Name
       value: SphereClimb (85)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4034855299993532, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_LocalPosition.x
@@ -11687,6 +12923,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SphereClimb (127)
       objectReference: {fileID: 0}
+    - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4034855299993532, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.252
@@ -11749,6 +12989,10 @@ PrefabInstance:
     - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_Name
       value: SphereClimb (25)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4034855299993532, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_LocalPosition.x
@@ -11848,6 +13092,69 @@ MonoBehaviour:
   m_Script: {fileID: 0}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &1061365572
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1061365574}
+  - component: {fileID: 1061365573}
+  m_Layer: 0
+  m_Name: LeftTouchpadControl
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1061365573
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1061365572}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 018581a6a9040b34d83404b882e892a6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  deviceForDirection: 0
+  disableOtherControlsOnActive: 1
+  affectOnFalling: 0
+  controlOverrideObject: {fileID: 378762674}
+  controller: {fileID: 1493467144}
+  bodyPhysics: {fileID: 1537443951}
+  coordinateAxis: 1
+  primaryActivationButton: 9
+  actionModifierButton: 10
+  axisDeadzone: {x: 0.2, y: 0.2}
+--- !u!4 &1061365574
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1061365572}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 879114653}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1081038711
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11858,6 +13165,10 @@ PrefabInstance:
     - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_Name
       value: SphereClimb (149)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4034855299993532, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_LocalPosition.x
@@ -11922,6 +13233,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SphereClimb (51)
       objectReference: {fileID: 0}
+    - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4034855299993532, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.442
@@ -11984,6 +13299,10 @@ PrefabInstance:
     - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_Name
       value: SphereClimb (35)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4034855299993532, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_LocalPosition.x
@@ -12079,6 +13398,10 @@ PrefabInstance:
     - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_Name
       value: SphereClimb (47)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4034855299993532, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_LocalPosition.x
@@ -12287,6 +13610,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SphereClimb (173)
       objectReference: {fileID: 0}
+    - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4034855299993532, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.874
@@ -12350,6 +13677,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SphereClimb (134)
       objectReference: {fileID: 0}
+    - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4034855299993532, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.079
@@ -12412,6 +13743,10 @@ PrefabInstance:
     - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_Name
       value: SphereClimb (78)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4034855299993532, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_LocalPosition.x
@@ -12635,7 +13970,7 @@ Transform:
   m_LocalScale: {x: 1, y: 50, z: 733.8527}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 20
+  m_RootOrder: 22
   m_LocalEulerAnglesHint: {x: 0, y: -90.01601, z: 0}
 --- !u!1001 &1149697458
 PrefabInstance:
@@ -12750,6 +14085,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SphereClimb (56)
       objectReference: {fileID: 0}
+    - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4034855299993532, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.334
@@ -12812,6 +14151,10 @@ PrefabInstance:
     - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_Name
       value: SphereClimb (69)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4034855299993532, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_LocalPosition.x
@@ -12876,6 +14219,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SphereClimb (20)
       objectReference: {fileID: 0}
+    - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4034855299993532, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.931
@@ -12939,6 +14286,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SphereClimb (52)
       objectReference: {fileID: 0}
+    - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4034855299993532, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.524
@@ -13001,6 +14352,10 @@ PrefabInstance:
     - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_Name
       value: SphereClimb (174)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4034855299993532, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_LocalPosition.x
@@ -13086,6 +14441,16 @@ MonoBehaviour:
   m_Script: {fileID: 0}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &1182994867
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13097,6 +14462,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!4 &1182994868
@@ -13125,6 +14500,10 @@ PrefabInstance:
     - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_Name
       value: SphereClimb (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4034855299993532, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_LocalPosition.x
@@ -13188,6 +14567,10 @@ PrefabInstance:
     - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_Name
       value: SphereClimb (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4034855299993532, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_LocalPosition.x
@@ -13291,7 +14674,7 @@ PrefabInstance:
     - target: {fileID: 3187163630138344171, guid: fe1b6359131d30e49a4b8f5d8bd19967,
         type: 3}
       propertyPath: m_RootOrder
-      value: 7
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 3187163630138344171, guid: fe1b6359131d30e49a4b8f5d8bd19967,
         type: 3}
@@ -13340,6 +14723,10 @@ PrefabInstance:
     - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_Name
       value: SphereClimb (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4034855299993532, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_LocalPosition.x
@@ -13473,6 +14860,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SphereClimb (93)
       objectReference: {fileID: 0}
+    - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4034855299993532, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.359
@@ -13536,6 +14927,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SphereClimb (34)
       objectReference: {fileID: 0}
+    - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4034855299993532, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.966
@@ -13598,6 +14993,10 @@ PrefabInstance:
     - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_Name
       value: SphereClimb (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4034855299993532, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_LocalPosition.x
@@ -13743,6 +15142,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SphereClimb (71)
       objectReference: {fileID: 0}
+    - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4034855299993532, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.4055
@@ -13884,7 +15287,7 @@ Transform:
   m_LocalScale: {x: 1, y: 50, z: 733.8527}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 17
+  m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1248489806
 GameObject:
@@ -14106,7 +15509,7 @@ PrefabInstance:
     - target: {fileID: 4363792124313647226, guid: 5bc383449a755104f8e136bc52275e17,
         type: 3}
       propertyPath: m_RootOrder
-      value: 14
+      value: 16
       objectReference: {fileID: 0}
     - target: {fileID: 4363792124313647226, guid: 5bc383449a755104f8e136bc52275e17,
         type: 3}
@@ -14150,6 +15553,10 @@ PrefabInstance:
     - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_Name
       value: SphereClimb (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4034855299993532, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_LocalPosition.x
@@ -14214,6 +15621,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SphereClimb (74)
       objectReference: {fileID: 0}
+    - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4034855299993532, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.3915
@@ -14266,6 +15677,110 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1256681704}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1261118418
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1261118419}
+  - component: {fileID: 1261118423}
+  - component: {fileID: 1261118422}
+  - component: {fileID: 1261118421}
+  - component: {fileID: 1261118420}
+  m_Layer: 0
+  m_Name: Either Controller - X Axis Rotate - Y Axis Slide
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &1261118419
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1261118418}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1371940748}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1261118420
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1261118418}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e1227828337a634aa0ff434d6bbd019, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectControlScript: {fileID: 1363737550}
+  listenOnAxisChange: 1
+  maximumSpeed: 3
+  deceleration: 0.1
+  fallingDeceleration: 0.01
+  speedMultiplier: 1.5
+  bodyPhysics: {fileID: 1537443951}
+--- !u!114 &1261118421
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1261118418}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8cf039de547880c4d9e49bf7eed59df5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectControlScript: {fileID: 1363737550}
+  listenOnAxisChange: 0
+  maximumRotationSpeed: 3
+  rotationMultiplier: 1.5
+--- !u!114 &1261118422
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1261118418}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e1227828337a634aa0ff434d6bbd019, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectControlScript: {fileID: 1061365573}
+  listenOnAxisChange: 1
+  maximumSpeed: 3
+  deceleration: 0.1
+  fallingDeceleration: 0.01
+  speedMultiplier: 1.5
+  bodyPhysics: {fileID: 1537443951}
+--- !u!114 &1261118423
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1261118418}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8cf039de547880c4d9e49bf7eed59df5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectControlScript: {fileID: 1061365573}
+  listenOnAxisChange: 0
+  maximumRotationSpeed: 3
+  rotationMultiplier: 1.5
 --- !u!1001 &1272316174
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14276,6 +15791,10 @@ PrefabInstance:
     - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_Name
       value: SphereClimb (136)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4034855299993532, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_LocalPosition.x
@@ -14339,6 +15858,10 @@ PrefabInstance:
     - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_Name
       value: SphereClimb (165)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4034855299993532, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_LocalPosition.x
@@ -14660,6 +16183,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SphereClimb (170)
       objectReference: {fileID: 0}
+    - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4034855299993532, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.779
@@ -14723,6 +16250,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SphereClimb (27)
       objectReference: {fileID: 0}
+    - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4034855299993532, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.386
@@ -14785,6 +16316,10 @@ PrefabInstance:
     - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_Name
       value: SphereClimb (139)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4034855299993532, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_LocalPosition.x
@@ -15033,8 +16568,109 @@ Transform:
   - {fileID: 1943957595}
   - {fileID: 308164204}
   m_Father: {fileID: 0}
-  m_RootOrder: 22
+  m_RootOrder: 23
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1363737549
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1363737551}
+  - component: {fileID: 1363737550}
+  m_Layer: 0
+  m_Name: RightTouchpadControl
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1363737550
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1363737549}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 018581a6a9040b34d83404b882e892a6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  deviceForDirection: 0
+  disableOtherControlsOnActive: 1
+  affectOnFalling: 0
+  controlOverrideObject: {fileID: 0}
+  controller: {fileID: 1932944384}
+  bodyPhysics: {fileID: 1537443951}
+  coordinateAxis: 1
+  primaryActivationButton: 9
+  actionModifierButton: 10
+  axisDeadzone: {x: 0.2, y: 0.2}
+--- !u!4 &1363737551
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1363737549}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 879114653}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1368198155
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1368198156}
+  - component: {fileID: 1368198157}
+  m_Layer: 0
+  m_Name: RightController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1368198156
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1368198155}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1795365863}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1368198157
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1368198155}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fbab4728a9813b468dd4a65f09e53aa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  activationButton: 10
+  movementFunction: 1
+  additionalMovementMultiplier: 1
+  headZoneRadius: 0.25
+  controllerEvents: {fileID: 0}
 --- !u!1001 &1371770890
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15085,7 +16721,7 @@ PrefabInstance:
     - target: {fileID: 1966779644259920233, guid: 924b0ecc34978a4429c5814c54ff0db2,
         type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 1966779644259920233, guid: 924b0ecc34978a4429c5814c54ff0db2,
         type: 3}
@@ -15104,6 +16740,41 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 924b0ecc34978a4429c5814c54ff0db2, type: 3}
+--- !u!1 &1371940747
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1371940748}
+  m_Layer: 0
+  m_Name: ObjectControlActions
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1371940748
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1371940747}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2144111793}
+  - {fileID: 573461774}
+  - {fileID: 886043689}
+  - {fileID: 1261118419}
+  - {fileID: 262249347}
+  m_Father: {fileID: 879114653}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1372001556
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15291,7 +16962,7 @@ Transform:
   - {fileID: 2073130350}
   - {fileID: 102040901}
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1415333517
 PrefabInstance:
@@ -15372,6 +17043,10 @@ PrefabInstance:
     - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_Name
       value: SphereClimb (114)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4034855299993532, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_LocalPosition.x
@@ -15556,6 +17231,10 @@ PrefabInstance:
     - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_Name
       value: SphereClimb (164)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4034855299993532, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_LocalPosition.x
@@ -15861,6 +17540,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SphereClimb (106)
       objectReference: {fileID: 0}
+    - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4034855299993532, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.035
@@ -15956,6 +17639,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SphereClimb (146)
       objectReference: {fileID: 0}
+    - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4034855299993532, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.049
@@ -16008,6 +17695,55 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1475394328}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1477690764
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1477690765}
+  - component: {fileID: 1477690766}
+  m_Layer: 0
+  m_Name: IgnoreTeleport
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1477690765
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1477690764}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 652783950}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1477690766
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1477690764}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ed2aa1a29b92ca4f84a26a5f6e9218b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  operation: 0
+  checkType: 3
+  identifiers:
+  - VRTK_ClimbableGrabAttach
+  - IgnoreTeleportDummy
+  - ExcludeTeleport
 --- !u!1 &1477847107
 GameObject:
   m_ObjectHideFlags: 0
@@ -16048,6 +17784,10 @@ PrefabInstance:
     - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_Name
       value: SphereClimb (86)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4034855299993532, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_LocalPosition.x
@@ -16141,6 +17881,10 @@ PrefabInstance:
     - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_Name
       value: SphereClimb (83)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4034855299993532, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_LocalPosition.x
@@ -16471,6 +18215,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SphereClimb (183)
       objectReference: {fileID: 0}
+    - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4034855299993532, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.025
@@ -16587,7 +18335,7 @@ Transform:
   - {fileID: 1493467141}
   - {fileID: 1932944381}
   m_Father: {fileID: 0}
-  m_RootOrder: 21
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1505411967
 PrefabInstance:
@@ -16599,6 +18347,10 @@ PrefabInstance:
     - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_Name
       value: SphereClimb (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4034855299993532, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_LocalPosition.x
@@ -16733,6 +18485,54 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1512005210}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1514991835
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1514991837}
+  - component: {fileID: 1514991836}
+  m_Layer: 0
+  m_Name: HeadsetCollision
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1514991836
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1514991835}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 057015237f68bd74d9c6c6c28ea347e9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ignoreTriggerColliders: 0
+  colliderRadius: 0.1
+  targetListPolicy: {fileID: 0}
+  headsetColliding: 0
+  collidingWith: {fileID: 0}
+--- !u!4 &1514991837
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1514991835}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1912117300}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1527128509
 GameObject:
   m_ObjectHideFlags: 0
@@ -16903,6 +18703,95 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1527128509}
   m_CullTransparentMesh: 0
+--- !u!1 &1537443950
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1537443953}
+  - component: {fileID: 1537443952}
+  - component: {fileID: 1537443951}
+  m_Layer: 0
+  m_Name: BodyPhysics
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1537443951
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1537443950}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 174429e04b0388249a137b2dc0050b66, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enableTeleport: 1
+  targetListPolicy: {fileID: 1477690766}
+  enableBodyCollisions: 1
+  ignoreGrabbedCollisions: 1
+  ignoreCollisionsWith: []
+  headsetYOffset: 0.2
+  movementThreshold: 0.0015
+  playAreaMovementThreshold: 0.00075
+  standingHistorySamples: 5
+  leanYThreshold: 0.5
+  stepUpYOffset: 0.15
+  stepThicknessMultiplier: 0.5
+  stepDropThreshold: 0.08
+  customRaycast: {fileID: 0}
+  fallRestriction: 0
+  gravityFallYThreshold: 1
+  blinkYThreshold: 0.15
+  floorHeightTolerance: 0.001
+  fallCheckPrecision: 5
+  teleporter: {fileID: 0}
+  customPlayAreaRigidbody: {fileID: 0}
+  customBodyColliderContainer: {fileID: 0}
+  customFootColliderContainer: {fileID: 0}
+--- !u!114 &1537443952
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1537443950}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 377ced3493c4e1842a5b1c23f56519db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  blinkToColor: {r: 0, g: 0, b: 0, a: 1}
+  blinkTransitionSpeed: 0.6
+  distanceBlinkDelay: 0
+  headsetPositionCompensation: 1
+  targetListPolicy: {fileID: 1477690766}
+  navMeshData: {fileID: 0}
+  navMeshLimitDistance: 0
+  snapToNearestFloor: 1
+  applyPlayareaParentOffset: 0
+  customRaycast: {fileID: 0}
+--- !u!4 &1537443953
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1537443950}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1912117300}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1540789509
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16913,6 +18802,10 @@ PrefabInstance:
     - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_Name
       value: SphereClimb (180)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4034855299993532, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_LocalPosition.x
@@ -17045,6 +18938,10 @@ PrefabInstance:
     - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_Name
       value: SphereClimb (131)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4034855299993532, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_LocalPosition.x
@@ -17321,6 +19218,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SphereClimb (154)
       objectReference: {fileID: 0}
+    - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4034855299993532, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.1879997
@@ -17383,6 +19284,10 @@ PrefabInstance:
     - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_Name
       value: SphereClimb (148)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4034855299993532, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_LocalPosition.x
@@ -17486,7 +19391,7 @@ PrefabInstance:
     - target: {fileID: 5958108715895231621, guid: fcc930b21917b0844875f77a64cc5f58,
         type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 5958108715895231621, guid: fcc930b21917b0844875f77a64cc5f58,
         type: 3}
@@ -17562,6 +19467,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SphereClimb (92)
       objectReference: {fileID: 0}
+    - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4034855299993532, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.347
@@ -17624,6 +19533,10 @@ PrefabInstance:
     - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_Name
       value: SphereClimb (126)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4034855299993532, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_LocalPosition.x
@@ -17723,6 +19636,64 @@ MonoBehaviour:
   m_Script: {fileID: 0}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &1605582255
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1605582256}
+  - component: {fileID: 1605582257}
+  m_Layer: 0
+  m_Name: LeftController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1605582256
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1605582255}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1795365863}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1605582257
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1605582255}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fbab4728a9813b468dd4a65f09e53aa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  activationButton: 10
+  movementFunction: 1
+  additionalMovementMultiplier: 1
+  headZoneRadius: 0.25
+  controllerEvents: {fileID: 0}
 --- !u!4 &1606464147 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 8060f31de3cc1c34db6a90db526b81d4,
@@ -17739,6 +19710,10 @@ PrefabInstance:
     - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_Name
       value: SphereClimb (176)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4034855299993532, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_LocalPosition.x
@@ -17980,7 +19955,7 @@ Transform:
   m_LocalScale: {x: 1, y: 50, z: 733.8527}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 19
+  m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 0, y: -90.01601, z: 0}
 --- !u!1001 &1642248107
 PrefabInstance:
@@ -17992,6 +19967,10 @@ PrefabInstance:
     - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_Name
       value: SphereClimb (94)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4034855299993532, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_LocalPosition.x
@@ -18139,6 +20118,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SphereClimb (26)
       objectReference: {fileID: 0}
+    - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4034855299993532, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.584
@@ -18271,6 +20254,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SphereClimb (91)
       objectReference: {fileID: 0}
+    - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4034855299993532, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.1939998
@@ -18334,6 +20321,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SphereClimb (22)
       objectReference: {fileID: 0}
+    - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4034855299993532, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.677
@@ -18384,6 +20375,10 @@ PrefabInstance:
     - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_Name
       value: SphereClimb (43)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4034855299993532, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_LocalPosition.x
@@ -18448,6 +20443,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SphereClimb (179)
       objectReference: {fileID: 0}
+    - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4034855299993532, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.046
@@ -18510,6 +20509,10 @@ PrefabInstance:
     - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_Name
       value: SphereClimb (68)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4034855299993532, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_LocalPosition.x
@@ -18806,6 +20809,7 @@ Transform:
   - {fileID: 1496071437}
   - {fileID: 652941705}
   - {fileID: 366139771}
+  - {fileID: 292556960}
   m_Father: {fileID: 2073130350}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -18819,6 +20823,10 @@ PrefabInstance:
     - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_Name
       value: SphereClimb (100)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4034855299993532, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_LocalPosition.x
@@ -18883,6 +20891,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SphereClimb (113)
       objectReference: {fileID: 0}
+    - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4034855299993532, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.081
@@ -18945,6 +20957,10 @@ PrefabInstance:
     - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_Name
       value: SphereClimb (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4034855299993532, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_LocalPosition.x
@@ -19009,6 +21025,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SphereClimb (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4034855299993532, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.603
@@ -19072,33 +21092,37 @@ PrefabInstance:
       propertyPath: m_Name
       value: SphereClimb (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4034855299993532, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.596
+      value: 0.77
       objectReference: {fileID: 0}
     - target: {fileID: 4034855299993532, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.371
+      value: 1.83
       objectReference: {fileID: 0}
     - target: {fileID: 4034855299993532, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.2
+      value: -0.11
       objectReference: {fileID: 0}
     - target: {fileID: 4034855299993532, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: 0.023298493
       objectReference: {fileID: 0}
     - target: {fileID: 4034855299993532, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0
+      value: -0.015295591
       objectReference: {fileID: 0}
     - target: {fileID: 4034855299993532, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: -0.019196285
       objectReference: {fileID: 0}
     - target: {fileID: 4034855299993532, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: 0.9994272
       objectReference: {fileID: 0}
     - target: {fileID: 4034855299993532, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_RootOrder
@@ -19106,15 +21130,37 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4034855299993532, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.099999994
+      value: 1.6326
       objectReference: {fileID: 0}
     - target: {fileID: 4034855299993532, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.099999994
+      value: 12.101005
       objectReference: {fileID: 0}
     - target: {fileID: 4034855299993532, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.099999994
+      value: 3.5507603
+      objectReference: {fileID: 0}
+    - target: {fileID: 4034855299993532, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 2.6360002
+      objectReference: {fileID: 0}
+    - target: {fileID: 4034855299993532, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -1.8050001
+      objectReference: {fileID: 0}
+    - target: {fileID: 4034855299993532, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -2.242
+      objectReference: {fileID: 0}
+    - target: {fileID: 23662359834173586, guid: bd2cf02360a0f42418077b237a1fe053,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114216229695318836, guid: bd2cf02360a0f42418077b237a1fe053,
+        type: 3}
+      propertyPath: touchHighlightColor.a
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
@@ -19134,6 +21180,10 @@ PrefabInstance:
     - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_Name
       value: SphereClimb (158)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4034855299993532, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_LocalPosition.x
@@ -19197,6 +21247,10 @@ PrefabInstance:
     - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_Name
       value: SphereClimb (45)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4034855299993532, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_LocalPosition.x
@@ -19292,6 +21346,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SphereClimb (54)
       objectReference: {fileID: 0}
+    - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4034855299993532, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.321
@@ -19354,6 +21412,10 @@ PrefabInstance:
     - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_Name
       value: SphereClimb (61)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4034855299993532, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_LocalPosition.x
@@ -19447,6 +21509,10 @@ PrefabInstance:
     - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_Name
       value: SphereClimb (95)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4034855299993532, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_LocalPosition.x
@@ -19542,6 +21608,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SphereClimb (79)
       objectReference: {fileID: 0}
+    - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4034855299993532, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.279
@@ -19604,6 +21674,10 @@ PrefabInstance:
     - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_Name
       value: SphereClimb (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4034855299993532, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_LocalPosition.x
@@ -19897,6 +21971,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SphereClimb (40)
       objectReference: {fileID: 0}
+    - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4034855299993532, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.137
@@ -19990,6 +22068,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SphereClimb (89)
       objectReference: {fileID: 0}
+    - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4034855299993532, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.1879997
@@ -20053,6 +22135,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SphereClimb (178)
       objectReference: {fileID: 0}
+    - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4034855299993532, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.018
@@ -20105,6 +22191,38 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1785203524}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1795365862
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1795365863}
+  m_Layer: 0
+  m_Name: StepMultiplier
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &1795365863
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1795365862}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1605582256}
+  - {fileID: 1368198156}
+  m_Father: {fileID: 491791731}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1828163384
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -20115,6 +22233,10 @@ PrefabInstance:
     - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_Name
       value: SphereClimb (175)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4034855299993532, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_LocalPosition.x
@@ -20326,6 +22448,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SphereClimb (122)
       objectReference: {fileID: 0}
+    - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4034855299993532, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.401
@@ -20411,6 +22537,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SphereClimb (125)
       objectReference: {fileID: 0}
+    - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4034855299993532, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.283
@@ -20473,6 +22603,10 @@ PrefabInstance:
     - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_Name
       value: SphereClimb (84)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4034855299993532, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_LocalPosition.x
@@ -20537,6 +22671,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SphereClimb (107)
       objectReference: {fileID: 0}
+    - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4034855299993532, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.393
@@ -20599,6 +22737,10 @@ PrefabInstance:
     - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_Name
       value: SphereClimb (145)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4034855299993532, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_LocalPosition.x
@@ -20868,6 +23010,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SphereClimb (163)
       objectReference: {fileID: 0}
+    - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4034855299993532, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.089
@@ -20950,7 +23096,7 @@ Transform:
   m_Children:
   - {fileID: 810335439}
   m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1889539899
 MonoBehaviour:
@@ -21010,6 +23156,10 @@ PrefabInstance:
     - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_Name
       value: SphereClimb (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4034855299993532, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_LocalPosition.x
@@ -21074,6 +23224,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SphereClimb (133)
       objectReference: {fileID: 0}
+    - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4034855299993532, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.141
@@ -21137,6 +23291,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SphereClimb (123)
       objectReference: {fileID: 0}
+    - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4034855299993532, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.386
@@ -21199,6 +23357,10 @@ PrefabInstance:
     - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_Name
       value: SphereClimb (88)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4034855299993532, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_LocalPosition.x
@@ -21294,6 +23456,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SphereClimb (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4034855299993532, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.517
@@ -21356,6 +23522,10 @@ PrefabInstance:
     - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_Name
       value: SphereClimb (143)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4034855299993532, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_LocalPosition.x
@@ -21420,6 +23590,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SphereClimb (77)
       objectReference: {fileID: 0}
+    - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4034855299993532, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.3694
@@ -21472,6 +23646,43 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1910038290}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1912117299
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1912117300}
+  m_Layer: 0
+  m_Name: '[ExampleScene_Scripts] (1)'
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1912117300
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1912117299}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1537443953}
+  - {fileID: 1514991837}
+  - {fileID: 366617692}
+  - {fileID: 62369281}
+  - {fileID: 387496359}
+  - {fileID: 491791731}
+  - {fileID: 652783950}
+  m_Father: {fileID: 0}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1917526958
 GameObject:
   m_ObjectHideFlags: 0
@@ -21587,7 +23798,7 @@ PrefabInstance:
     - target: {fileID: 4363792124313647226, guid: 5bc383449a755104f8e136bc52275e17,
         type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4363792124313647226, guid: 5bc383449a755104f8e136bc52275e17,
         type: 3}
@@ -21662,6 +23873,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SphereClimb (64)
       objectReference: {fileID: 0}
+    - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4034855299993532, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.124
@@ -21724,6 +23939,10 @@ PrefabInstance:
     - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_Name
       value: SphereClimb (41)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4034855299993532, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_LocalPosition.x
@@ -21903,6 +24122,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SphereClimb (155)
       objectReference: {fileID: 0}
+    - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4034855299993532, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.235
@@ -21971,6 +24194,10 @@ PrefabInstance:
     - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_Name
       value: SphereClimb (53)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4034855299993532, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_LocalPosition.x
@@ -22097,7 +24324,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 8060f31de3cc1c34db6a90db526b81d4, type: 3}
       propertyPath: m_RootOrder
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 8060f31de3cc1c34db6a90db526b81d4, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -22135,6 +24362,10 @@ PrefabInstance:
     - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_Name
       value: SphereClimb (49)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4034855299993532, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_LocalPosition.x
@@ -22427,6 +24658,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SphereClimb (31)
       objectReference: {fileID: 0}
+    - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4034855299993532, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.576
@@ -22559,6 +24794,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SphereClimb (137)
       objectReference: {fileID: 0}
+    - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4034855299993532, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.068
@@ -22622,6 +24861,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SphereClimb (166)
       objectReference: {fileID: 0}
+    - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4034855299993532, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.155
@@ -22674,6 +24917,54 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 2006723144}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2011542565
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2011542567}
+  - component: {fileID: 2011542566}
+  m_Layer: 0
+  m_Name: Climbing
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &2011542566
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2011542565}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 949c8bfad2b5d294eaa9d9f015aeb66e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  usePlayerScale: 1
+  bodyPhysics: {fileID: 1537443951}
+  teleporter: {fileID: 1537443952}
+  headsetCollision: {fileID: 1514991836}
+  positionRewind: {fileID: 62369280}
+--- !u!4 &2011542567
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2011542565}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 491791731}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2012002048
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -22684,6 +24975,10 @@ PrefabInstance:
     - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_Name
       value: SphereClimb (171)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4034855299993532, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_LocalPosition.x
@@ -22747,6 +25042,10 @@ PrefabInstance:
     - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_Name
       value: SphereClimb (162)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4034855299993532, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_LocalPosition.x
@@ -22888,6 +25187,10 @@ PrefabInstance:
     - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_Name
       value: SphereClimb (135)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4034855299993532, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_LocalPosition.x
@@ -23050,6 +25353,10 @@ PrefabInstance:
     - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_Name
       value: SphereClimb (50)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4034855299993532, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_LocalPosition.x
@@ -23237,6 +25544,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SphereClimb (130)
       objectReference: {fileID: 0}
+    - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4034855299993532, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.145
@@ -23418,6 +25729,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SphereClimb (73)
       objectReference: {fileID: 0}
+    - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4034855299993532, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.943
@@ -23566,6 +25881,10 @@ PrefabInstance:
     - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_Name
       value: SphereClimb (37)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4034855299993532, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_LocalPosition.x
@@ -23729,6 +26048,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SphereClimb (156)
       objectReference: {fileID: 0}
+    - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4034855299993532, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.2
@@ -23791,6 +26114,10 @@ PrefabInstance:
     - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_Name
       value: SphereClimb (96)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4034855299993532, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_LocalPosition.x
@@ -23887,6 +26214,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SphereClimb (104)
       objectReference: {fileID: 0}
+    - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4034855299993532, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.155
@@ -23949,6 +26280,10 @@ PrefabInstance:
     - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_Name
       value: SphereClimb (76)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4034855299993532, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_LocalPosition.x
@@ -24013,6 +26348,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SphereClimb (81)
       objectReference: {fileID: 0}
+    - target: {fileID: 1669785860599548, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4034855299993532, guid: bd2cf02360a0f42418077b237a1fe053, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.271
@@ -24065,6 +26404,116 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 2139731679}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2144111792
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2144111793}
+  - component: {fileID: 2144111797}
+  - component: {fileID: 2144111796}
+  - component: {fileID: 2144111795}
+  - component: {fileID: 2144111794}
+  m_Layer: 0
+  m_Name: Either Controller - X Axis Slide - Y Axis Slide
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2144111793
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2144111792}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1371940748}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2144111794
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2144111792}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e1227828337a634aa0ff434d6bbd019, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectControlScript: {fileID: 1363737550}
+  listenOnAxisChange: 1
+  maximumSpeed: 3
+  deceleration: 0.1
+  fallingDeceleration: 0.01
+  speedMultiplier: 1.5
+  bodyPhysics: {fileID: 1537443951}
+--- !u!114 &2144111795
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2144111792}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e1227828337a634aa0ff434d6bbd019, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectControlScript: {fileID: 1363737550}
+  listenOnAxisChange: 0
+  maximumSpeed: 3
+  deceleration: 0.1
+  fallingDeceleration: 0.01
+  speedMultiplier: 1.5
+  bodyPhysics: {fileID: 1537443951}
+--- !u!114 &2144111796
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2144111792}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e1227828337a634aa0ff434d6bbd019, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectControlScript: {fileID: 1061365573}
+  listenOnAxisChange: 1
+  maximumSpeed: 3
+  deceleration: 0.1
+  fallingDeceleration: 0.01
+  speedMultiplier: 1.5
+  bodyPhysics: {fileID: 1537443951}
+--- !u!114 &2144111797
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2144111792}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e1227828337a634aa0ff434d6bbd019, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectControlScript: {fileID: 1061365573}
+  listenOnAxisChange: 0
+  maximumSpeed: 3
+  deceleration: 0.1
+  fallingDeceleration: 0.01
+  speedMultiplier: 1.5
+  bodyPhysics: {fileID: 1537443951}
 --- !u!1 &2144143984
 GameObject:
   m_ObjectHideFlags: 0
